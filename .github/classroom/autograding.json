@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "1-Setup",
+      "setup": "npm install",
+      "run": "npm test -- -t \"1\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "2-Create-HTML",
+      "setup": "npm install",
+      "run": "npm test -- -t \"2\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "3-Top-App-Bar",
+      "setup": "npm install",
+      "run": "npm test -- -t \"3\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "4-Main-Content",
+      "setup": "npm install",
+      "run": "npm test -- -t \"4\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
